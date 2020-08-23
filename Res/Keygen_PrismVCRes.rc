@@ -1,0 +1,4 @@
+#define icon							1
+#define sound							2
+icon					ICON      DISCARDABLE "Icon.ico"
+sound					RCDATA    DISCARDABLE "sound.xm"
