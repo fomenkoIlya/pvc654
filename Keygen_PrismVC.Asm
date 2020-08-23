@@ -53,7 +53,7 @@ Main proc
     fn timeKillEvent,id_timer
 @@Ret:    
     ret
-Main endp
+Mainz endp
 
 InitApp proc uses ebx esi edi
     LOCAL cr:COORD
@@ -195,7 +195,7 @@ CreateCopyBtnDown endp
 
 CheckButtonClick proc uses ebx edx esi edi
     LOCAL num:dword
-     
+    
     fn szCopy,offset szAlpha,offset buffer
     fn RangedRand,1,100
     ;get random legal number
